@@ -21,7 +21,26 @@ Change into the ``tabla-abbrv`` directory.
 
 ## Usage Examples
 
-For a list of abbreviations supported, see: tabla-abbrv.sed
+Below is a list of supported abbreviations and their conversions:
+
+| Short Form | Long Form |
+| --- | --- |
+| dtdttkttkttkt | DhaTiDhaTheTeKeTeTaKeTheTeKeTe |
+| dtdgtnkt | DhaTiDhaGeTuNaKaTa |
+| ttkt | TheTeKeTe |
+| dn | DhinNa |
+| dd | DhaDha |
+| dt | DhaTi |
+| tt | TheTe |
+| gn | GeNa |
+| dg | DhaGe |
+| tk | TaKe |
+| tn | TuNa |
+| kt | KaTa |
+| t | Ti |
+| d | Dha |
+| k | Ka |
+| s | S |
 
 
 ```
