@@ -1,0 +1,15 @@
+s/\(dhin\|dhe\|dha\|dhi\|dhin\|na\|ne\|tin\|the\|te\|tun\|tu\|ti\|ta\|re\|ge\|ka\|ke\|kr\)/\u\1/g
+s/ttkt/TheTeKeTe/g
+s/dn/DhinNa/g
+s/dd/DhaDha/g
+s/dt/DhaTi/g
+s/tt/TheTe/g
+s/gn/GeNa/g
+s/dg/DhaGe/g
+s/tk/TaKe/g
+s/tn/TuNa/g
+s/kt/KaTa/g
+s/t/Ti/g
+s/d/Dha/g
+s/k/Ka/g
+s/s/S/g
