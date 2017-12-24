@@ -21,7 +21,9 @@ Change into the ``tabla-abbrv`` directory.
 
 ## Usage Examples
 
-Below is a list of supported abbreviations and their conversions:
+Below is a list of supported abbreviations and their conversions.
+
+NOTE: subsets of the below abbreviations are also supported! It is not an exhaustive list. Please play around, as various combinations of the below abbreviations can lead to more complicated long form Tabla sentences.
 
 | Short Form | Long Form |
 | --- | --- |
