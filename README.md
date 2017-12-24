@@ -21,6 +21,9 @@ Change into the ``tabla-abbrv`` directory.
 
 ## Usage Examples
 
+For a list of abbreviations supported, see: tabla-abbrv.sed
+
+
 ```
 $ echo "dt dgtnkt" | sed -f ./tabla-abbrv.sed``
 DhaTi DhaGeTuNaKaTa
