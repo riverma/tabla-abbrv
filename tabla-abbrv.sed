@@ -9,7 +9,7 @@ s/dg/DhaGe/g
 s/tk/TaKe/g
 s/tn/TuNa/g
 s/kt/KaTa/g
-s/t/Ti/g
-s/d/Dha/g
+s/gg/GeGe/g
+s/d\(\S\)/Dha\1/g
 s/k/Ka/g
 s/s/S/g
