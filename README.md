@@ -46,11 +46,11 @@ NOTE: subsets of the below abbreviations are also supported! It is not an exhaus
 
 
 ```
-$ echo "dt dgtnkt" | sed -f ./tabla-abbrv.sed``
+$ ./tabla-abbrv.sed "dt dgtnkt"
 DhaTi DhaGeTuNaKaTa
 ```
 
 ```
-$ echo "dtdgtnkt dtdttkttkttkt dtdttkttkttkt dtdgtnkt" | sed -f ./tabla-abbrv.sed
+$ ./tabla-abbrv.sh "dtdgtnkt dtdttkttkttkt dtdttkttkttkt dtdgtnkt"
 DhaTiDhaGeTuNaKaTa DhaTiDhaTheTeKeTeTaKeTheTeKeTe DhaTiDhaTheTeKeTeTaKeTheTeKeTe DhaTiDhaGeTuNaKaTa
 ```
