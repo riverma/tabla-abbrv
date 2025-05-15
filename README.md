@@ -6,10 +6,7 @@ i.e. ``dttkttkttkt`` -> ``DhaTheTeKeTeTaKeTheTeKeTe``
 ## Requirements
 
 * A command-line terminal
-* ``sed`` - GNU stream editor. Most *nix platforms have this already installed as a tool on the command-line. If you're 
-using MacOSX, please not that you'll want to install the GNU version of ``sed`` and not use the pre-installed BSD version 
-(because certain regex shortcuts are not supported by the BSD version). If you're using [Homebrew](https://brew.sh/) on MacOSX,
-try installing the GNU version of ``sed`` via: ``$ brew install gnu-sed`` and use the binary via ``gsed...``
+* Python 3.x (Python 2.x may also work but is not officially supported)
 
 ## Installation
 
@@ -46,9 +43,16 @@ NOTE: subsets of the below abbreviations are also supported! It is not an exhaus
 
 
 ```
-$ ./tabla-abbrv.sed "dt dgtnkt"
+$ python tabla-abbrv.py "dt dgtnkt"
 DhaTi DhaGeTuNaKaTa
 ```
+
+```
+$ python tabla-abbrv.py "dtdgtnkt dtdttkttkttkt dtdttkttkttkt dtdgtnkt"
+DhaTiDhaGeTuNaKaTa DhaTiDhaTheTeKeTeTaKeTheTeKeTe DhaTiDhaTheTeKeTeTaKeTheTeKeTe DhaTiDhaGeTuNaKaTa
+```
+
+For backwards compatibility, you can also use the old bash script:
 
 ```
 $ ./tabla-abbrv.sh "dtdgtnkt dtdttkttkttkt dtdttkttkttkt dtdgtnkt"
